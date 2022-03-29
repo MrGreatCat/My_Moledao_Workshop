@@ -38,7 +38,7 @@ function App() {
       setHasClaimedNFT(false);
       console.error('Failed to mint NFT', error);
 
-    } finally {
+    } finally { 
 
       setIsClaming(false);
     }
